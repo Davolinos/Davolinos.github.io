@@ -19,6 +19,6 @@ const app = createApp(App)
 
 app.use(router)
 
-app.component('FA', FontAwesomeIcon)
+app.component('font-awesome-icon', FontAwesomeIcon)
 
 app.mount('#app')
