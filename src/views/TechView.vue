@@ -11,15 +11,26 @@
   	</div>
 		<div class="desc-container">
 			<div class="desc">
-				<img class="rounded-3xl" src="/flask.png"/>
+				<img class="rounded-3xl w-100 h-40" src="/flask.png"/>
 			</div>
 			<div class="desc">
 				<p class="desc-text">I also use flask for my back end project. Sometimes i use Django or Node js, but Flask is my best.</p>
 			</div>
 		</div>
+		<div class="desc-container">
+			<div class="desc">
+				<img class="w-40 h-40" src="/godot.png" />
+			</div>
+			<div class="desc">
+				<p class="desc-text`">I mostly use Godot for game development and i use GDScript for the scripting. Why Godot? Because the FOS in daFOS stands for Free and Open Source.</p>
+			</div>
+		</div>
   </div>
+	<BotBar />	
 </template>
 
+
 <script setup>
-import NavBar from '../components/NavBar.vue'
+import NavBar from '../components/NavBar.vue';
+import BotBar from '../components/BotBar.vue';
 </script>

@@ -8,10 +8,10 @@
     @apply text-sky-900 hover:text-sky-800 font-semibold hover:underline transition-all;
   }
   .desc {
-    @apply bg-slate-800 inline-block hover:scale-110 m-5 scale-100 rounded-3xl transition-all;
+    @apply flex justify-center items-center bg-slate-800 inline-block hover:scale-110 m-5 scale-100 rounded-3xl transition-all;
   }
 	.desc-text {
-		@apply text-center p-5 text-lg;
+		@apply text-left p-10 text-lg ;
 	}
 	.desc-container {
 		@apply flex flex-wrap justify-center;
