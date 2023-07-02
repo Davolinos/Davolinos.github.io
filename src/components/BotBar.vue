@@ -7,6 +7,5 @@
     <a href="https://www.instagram.com/davolinos/">
       <img class="h-7 w-7" src="/square-instagram.svg" />
     </a>
-    <a href="https://github.com/Davolinos"> <img class="h-7 w-7" src="github.svg" /></a>
   </div>
 </template>
